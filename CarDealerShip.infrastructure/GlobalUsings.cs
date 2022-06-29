@@ -5,4 +5,4 @@ global using System.Text;
 global using System.Threading.Tasks;
 global using CarDealerShip.infrastructure.IRepositories;
 global using Microsoft.EntityFrameworkCore;
-global  using CarDealerShip.infrastructure.Entities;
+global using CarDealerShip.infrastructure.Entities;

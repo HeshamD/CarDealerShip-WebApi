@@ -15,5 +15,12 @@ namespace CarDealerShip.infrastructure.RepositoriesImp
 
             return (IQueryable<CustomerEntity>)Customer;
         }
+
+        public async Task<IQueryable<CustomerEntity>> GetCustomerByEmail(string customerEmail)
+        {
+            var Customer = await _db.Customers.SingleAsync(c => c.Customer_Email == customerEmail);
+
+            return (IQueryable<CustomerEntity>)Customer;
+        }
     }
 }
