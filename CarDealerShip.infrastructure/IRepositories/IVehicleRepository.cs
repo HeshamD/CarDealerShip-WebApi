@@ -8,7 +8,6 @@ namespace CarDealerShip.infrastructure.IRepositories
 {
     interface IVehicleRepository
     {
-
         public Task<IQueryable<VehicleEntity>> GetVehicleVinNumber(string vinNumber);
 
     }

@@ -22,5 +22,9 @@ namespace CarDealerShip.infrastructure.RepositoriesImp
 
             return (IQueryable<CustomerEntity>)Customer;
         }
+
+
+        
+
     }
 }

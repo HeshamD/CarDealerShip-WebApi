@@ -11,6 +11,5 @@ namespace CarDealerShip.infrastructure.IRepositories
         public Task DeleteByIdAsync(int id);
         public Task UpdateAsync(T TT);
 
-
     }
 }
